@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  max-width: 1280px;
   margin: 0 auto;
+  max-width: 1280px;
   padding: 0;
 }
 
@@ -50,11 +50,10 @@ ul {
 }
 
 header {
-  position: fixed;
-  width: 100%;
+  position: sticky;
+  top: 0;
   display: flex;
   background-color: #55ADB7;
-  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -95,22 +94,18 @@ nav ul li:last-child::after {
 }
 
 .section_promo {
-  background: url(../images/Layer\ 1@1X.png) no-repeat center center;
-  background-size: 100vw;
+  background: url(../images/sea.png) no-repeat center center;
 }
 
 
 .container {
   padding-top: 100px;
-  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   align-items: center;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .section_promo h2 {
@@ -146,19 +141,18 @@ nav ul li:last-child::after {
 
 .sliders a {
   display: inline-block;
-  margin-right: 20px;
-  height: 10px;
-  width: 10px;
+  background-color: #FFFFFF;
+  margin-right: 15px;
+  height: 9px;
+  width: 9px;
   border-radius: 50%;
-  border: 1px solid grey;
 }
 
 .sliders a:hover {
   background-color: #69728C;
 }
 
-.section_2 {
-  background-image: url(../images/Layer\ 2@1X.png);
+.section_about-me {
   font-family: HelveticaLTStd Roman;
   color: #4C505D;
 }
@@ -182,7 +176,7 @@ nav ul li:last-child::after {
   transition: all 0.8s ease-in-out;
 }
 
-.section_3 {
+.section_portfolio {
   background-color: #00D089;
 }
 
@@ -193,7 +187,7 @@ nav ul li:last-child::after {
 }
 
 .face {
-  background: url(../images/Layer\ 3@1X.png) no-repeat center center;
+  background: url(../images/Dhavan.png) no-repeat center center;
   width: 135px;
   height: 135px;
   border-radius: 50%;
@@ -220,7 +214,7 @@ nav ul li:last-child::after {
   opacity: 0.2;
 }
 
-.section_3 p {
+.section_portfolio p {
   margin-top: -100px;
   font-family: 'Helvetica Light';
   font-size: 18px;
@@ -230,8 +224,7 @@ nav ul li:last-child::after {
 .map {
   margin-top: 100px;
   padding: 50px 0;
-  width: 100%;
-  background: url(../images/Layer\ 4@1X.png) no-repeat center center;
+  background: url(../images/map.png) no-repeat center center;
 }
 .circle {
   display: flex;
@@ -275,6 +268,9 @@ form button img:hover {
 }
 
 .footer {
+  font-family: helvetica-condensed;
+  font-size: 14px;
+  text-transform: uppercase;
   padding: 20px 0;
   background-color: #00D089;
   text-align: center;
