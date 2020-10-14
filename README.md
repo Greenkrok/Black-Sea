@@ -1,2 +1,2 @@
-# lesson-6
-https://greenkrok.github.io/Lesson-6/
+# Layot-3
+https://greenkrok.github.io/Layot-3/
